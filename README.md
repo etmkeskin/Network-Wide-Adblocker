@@ -6,7 +6,7 @@
 * An energy-efficient and cost-effective solution for network-wide ad blocking.
 
 
-<img src="https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/52e15ede-7cac-4b6d-a147-78170b996a23" width="300" height="100">
+<img src="https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/52e15ede-7cac-4b6d-a147-78170b996a23" width="100" height="200">
 <img src="https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/ff594a6a-720d-4484-a845-e3c7b33a746a" width="100" height="100">
 <img src="https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/194865ea-3583-49fb-bf80-4a9d525bc30a" width="100" height="100">
 <br> <!-- Add a line break to separate the image sets -->
