@@ -5,5 +5,5 @@
 * Improved privacy and security due to blocking of malicious domains and trackers.
 * An energy-efficient and cost-effective solution for network-wide ad blocking.
 
-<img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/a1488703-2c19-42e1-81f9-8b7a6c73cdfa" width = "100" height = "300">
-<img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/77f754fc-4e58-42c7-a21c-c226a2729c62" width = "100" height = "300">
+<img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/a1488703-2c19-42e1-81f9-8b7a6c73cdfa" width = "150" height = "100">
+<img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/77f754fc-4e58-42c7-a21c-c226a2729c62" width = "150" height = "100">
