@@ -6,9 +6,9 @@
 * An energy-efficient and cost-effective solution for network-wide ad blocking.
 
 
-<img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/52e15ede-7cac-4b6d-a147-78170b996a23" width = "10" height = "10">
-<img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/ff594a6a-720d-4484-a845-e3c7b33a746a" width = "10" height = "10">
-<img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/194865ea-3583-49fb-bf80-4a9d525bc30a" width = "10" height = "10">
+<img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/52e15ede-7cac-4b6d-a147-78170b996a23" width = "50" height = "50">
+<img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/ff594a6a-720d-4484-a845-e3c7b33a746a" width = "50" height = "50">
+<img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/194865ea-3583-49fb-bf80-4a9d525bc30a" width = "50" height = "50">
 
 <img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/a1488703-2c19-42e1-81f9-8b7a6c73cdfa" width = "300" height = "600">
 <img src = "https://github.com/etmkeskin/Network-Wide-Adblocker/assets/96024514/77f754fc-4e58-42c7-a21c-c226a2729c62" width = "300" height = "600">
