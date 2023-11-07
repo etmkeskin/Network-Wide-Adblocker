@@ -1,0 +1,48 @@
+##Update Raspberry Pi OS
+  sudo apt update && sudo apt upgrade -y
+
+##Set a Static IP Address for the Raspberry Pi
+  Option 1 – Set a DHCP Reservation on the Modem Interface Page
+    *A DHCP reservation ensures that your Raspberry Pi always receives the same IP address. This is done by associating a specific IP address with the MAC address of your Raspberry Pi on your modem's interface page.
+
+  Option 2 – Set a Static IP on the Raspberry Pi
+    *Use the following steps to set a static IP on the Raspberry Pi:
+      sudo nano -w /etc/dhcpcd.conf
+
+    *Inside the dhcpcd.conf file, add the following configuration, replacing 192.168.XXX.XXX with your desired static IP address:
+      # Example static IP configuration:
+      interface wlan0
+      static ip_address=192.168.XXX.XXX/24
+      # static ip6_address=fd51:42f8:caae:d92e::ff/64
+      static routers=192.168.XXX.XXX
+      static domain_name_servers=192.168.XXX.XXX 8.8.8.8
+  
+    *After configuring the file, reboot the Raspberry Pi:
+      sudo reboot 
+
+##Install Pi-hole
+  curl -sSL https://install.pi-hole.net | bash
+  
+  *After completing the Pi-hole setup, you can change your Pi-hole password with this command:
+    pihole -a -p
+
+##Access the Pi-hole GUI
+  You can access the Pi-hole GUI using the static IP address you set for the Raspberry Pi:
+    http://192.XXX.XXX.X/admin
+
+##Add Adlists and Domains to Pi-hole
+  *Choose from ready-made adlists on the following links or create your own adlists:
+    https://firebog.net/
+    https://easylist.to/
+
+##Update Gravity
+  After adding new adlists or domains to Pi-hole, you should update the gravity list. You can do this in two ways:
+    *Navigate to Tools -> Update Gravity in the Pi-hole Admin Console.
+    *Or use the following command: 
+      pihole -g
+
+##Configure Devices to Use Pi-hole
+  *To ensure that your devices use Pi-hole for DNS resolution, you can either manually set the DNS server to the static IP address of the Raspberry Pi on each device.
+  *Or assign the Raspberry Pi's static IP as the DNS server in your router's GUI.
+  
+  
